@@ -18,7 +18,7 @@ var char_arr: array[1..n] of char;
 begin
   for i:=1 to n do begin
     //writeln(i);
-    read(char_arr[i]);
+    readln(char_arr[i]);
     if char_arr[i] = 'z' then begin
       sum := sum + 1;
     end;
